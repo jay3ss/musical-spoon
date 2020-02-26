@@ -1,0 +1,20 @@
+/* Style sheet created by: Joshua Saunders */
+
+/* Style for body specifies a background color */
+body {
+    background-color: #1D1D1C;
+}
+
+/* Style to create a fluid image */
+img {
+    max-width: 100%;
+}
+
+/* Styles for Mobile Layout */
+
+/* Style for the container centers the page and specifies the width */
+#container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
