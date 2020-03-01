@@ -420,18 +420,27 @@ aside {
 }
 
 /* Style specifies the color of the table cell */
-.yoga-availability {
+.yoga {
     background-color: lightcoral;
-    width: 15px;
 }
 
 /* Styles for coloring the background of the schedule table */
-.pilates-availability {
+.pilates {
     background-color: lightgreen;
 }
 
-.zumba-availability {
+.zumba {
     background-color: lightskyblue;
+}
+
+.availability {
+    width: 15px;
+    color: black;
+    text-align: center;
+}
+
+.availability:hover {
+    transform: scale(1.5);
 }
 
 /* Styles for setting the display type, overflow, white space
