@@ -1,0 +1,32 @@
+/*
+Joshua Saunders
+CS 150
+Project 2 - Paycheck Program
+
+Write JavaScript code that does the following (Use the document.write()
+function to output your results to the page
+
+Create a folder called paycheck and create html and JavaScript files to perform
+the following:
+
+  1. Create a string variable to hold your name.
+  2. Create a variable to hold your gross pay.
+  3. Create a variable to hold your tax rate.
+  4. Create a variable to hold your tax by multiplying gross pay by tax rate.
+  5. Output your name, amount of tax you owe and your net pay.
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    text-align: left;
+    padding-right: 1em;
+}
+
+td {
+    text-align: right;
+    padding-left: 1em;
+}
