@@ -1,4 +1,4 @@
-/*
+/* file: paycheck.js
 Joshua Saunders
 CS 150
 Project 2 - Paycheck Program
