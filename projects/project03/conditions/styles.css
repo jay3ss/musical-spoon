@@ -1,0 +1,20 @@
+/* file: styles.css
+Joshua Saunders
+CS 150
+Project 3 - Conditions Program
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    text-align: left;
+    padding-right: 1em;
+}
+
+td {
+    text-align: right;
+    padding-left: 1em;
+}
