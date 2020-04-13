@@ -1,0 +1,24 @@
+/* file: styles.css
+Joshua Saunders
+CS 150
+Project 4 - Sales Tax Program
+
+Create a subfolder called salestax. Create a sales tax calculator.
+Ask the user for the amount of the item. Output an alert that
+shows Item Price, Tax Amount (9.5%) and the Total Price.
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+th {
+    text-align: left;
+    padding-right: 1em;
+}
+
+td {
+    text-align: right;
+    padding-left: 1em;
+}
