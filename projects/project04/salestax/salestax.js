@@ -1,4 +1,4 @@
-/* file: conditions.js
+/* file: salestax.js
 Joshua Saunders
 CS 150
 Project 4 - Sales Tax Program

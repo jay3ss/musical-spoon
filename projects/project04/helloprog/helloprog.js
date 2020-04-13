@@ -1,4 +1,4 @@
-/* file: conditions.js
+/* file: helloprog.js
 Joshua Saunders
 CS 150
 Project 4 - Hello Program
