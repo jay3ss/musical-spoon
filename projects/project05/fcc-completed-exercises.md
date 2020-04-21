@@ -15,6 +15,3 @@
 ![exercise 13](13.png)
 ![exercise 14](14.png)
 ![exercise 15](15.png)
-![exercise 16](16.png)
-![exercise 17](17.png)
-![exercise 18](18.png)
