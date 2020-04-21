@@ -1,15 +1,20 @@
 /* file: styles.css
 Joshua Saunders
 CS 150
-Project 4 - Hello Program
+Project 5 - Payroll Program
 
-Create a subfolder within project4 folder called helloprog. Within
-this folder create a script.js file. Within this javascript file write
-code that asks the user for their first name and last name: Output
-an alert with the following message using the inputted first name
-and last name: Hello John Wick, How is you day going? Make
-sure to test your code using an html file that links to the javascript
-file
+Payroll calculator:
+
+1. Ask for the employee’s name, hours worked, and pay per hour (Use HTML Inputs)
+2. Ask for the tax rate of the employee (Single 22% or Family 18%) (Use HTML
+   Inputs)
+3. Calculate the gross pay, the tax amount, and the net pay using functions
+   with parameters output using innerHTML.
+        function grosspay(hours, payperhour)
+        function emptax(grosspay)
+        function netpay(empgrosspay, emptax)
+4. If the hours exceed 40 calculate the overtime at 1.5 times the pay per hour.
+   Write a overtime function
 */
 body {
     font-family: Arial, Helvetica, sans-serif;
