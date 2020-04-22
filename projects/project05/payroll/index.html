@@ -20,86 +20,85 @@ Payroll calculator:
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 5 - Payroll Program</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5 - Payroll Program</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-   <main>
-      <h1>Payroll Program</h1>
+    <main>
+        <h1>Payroll Program</h1>
 
-      <form name="payrollForm">
-         <!-- Name -->
-         <fieldset>
-            <legend>Name</legend>
+        <form name="payrollForm">
+            <!-- Name -->
+            <fieldset>
+                <legend>Name</legend>
 
-            <label>
-               <span>Please enter your name (first and last)</span>
-               <input type="text" id="empName" name="empName" placeholder="Name"></label>
-         </fieldset>
+                <label>
+                    <span>Please enter your name (first and last)</span>
+                    <input type="text" id="empName" name="empName" placeholder="Name"></label>
+            </fieldset>
 
-         <!-- Hours worked -->
-         <fieldset id="wts">
-            <legend>Weekly Time Sheet</legend>
-            <p>
-               In order to accurately calculate your paycheck, we need to know
-               your hours. Please enter the hours for the week below (in 15
-               minute increments).
-            </p>
-            <label>
-               <span>Monday</span>
-               <input class="hours" type="number" min="0" step="0.25" value="0" required>
-            </label>
-            <label>
-               <span>Tuesday</span>
-               <input class="hours" type="number" min="0" step="0.25" value="0" required>
-            </label>
-            <label>
-               <span>Wednesday</span>
-               <input class="hours" type="number" min="0" step="0.25" value="0" required>
-            </label>
-            <label>
-               <span>Thursday</span>
-               <input class="hours" type="number" min="0" step="0.25" value="0" required>
-            </label>
-            <label>
-               <span>Friday</span>
-               <input class="hours" type="number" min="0" step="0.25" value="0" required>
-            </label>
+            <!-- Hours worked -->
+            <fieldset id="wts">
+                <legend>Weekly Time Sheet</legend>
+                <p>
+                    In order to accurately calculate your paycheck, we need to know your hours. Please enter the hours
+                    for the week below (in 15 minute increments).
+                </p>
+                <label>
+                    <span>Monday</span>
+                    <input class="hours" type="number" min="0" step="0.25" value="0" required>
+                </label>
+                <label>
+                    <span>Tuesday</span>
+                    <input class="hours" type="number" min="0" step="0.25" value="0" required>
+                </label>
+                <label>
+                    <span>Wednesday</span>
+                    <input class="hours" type="number" min="0" step="0.25" value="0" required>
+                </label>
+                <label>
+                    <span>Thursday</span>
+                    <input class="hours" type="number" min="0" step="0.25" value="0" required>
+                </label>
+                <label>
+                    <span>Friday</span>
+                    <input class="hours" type="number" min="0" step="0.25" value="0" required>
+                </label>
 
-         </fieldset>
+            </fieldset>
 
-         <!-- Pay rate -->
-         <fieldset>
-            <legend>Pay Rate</legend>
+            <!-- Pay rate -->
+            <fieldset>
+                <legend>Pay Rate</legend>
 
-            <label>
-               <span>Please enter your pay rate (dollars per hour).</span>
-               <input id="payRate" name="payRate" type="number" min="0" step="0.01" value="0" required>
-            </label>
-         </fieldset>
+                <label>
+                    <span>Please enter your pay rate (dollars per hour).</span>
+                    <input id="payRate" name="payRate" type="number" min="0" step="0.01" value="0" required>
+                </label>
+            </fieldset>
 
-         <!-- Tax rate -->
-         <fieldset>
-            <legend>Tax Rate</legend>
-            <span>Please select your tax rate.</span>
-            <select id="taxRate" name="panel" required>
-               <option value="22">Single</option>
-               <option value="18">Family</option>
-            </select>
-         </fieldset>
-      </form>
+            <!-- Tax rate -->
+            <fieldset>
+                <legend>Tax Rate</legend>
+                <span>Please select your tax rate.</span>
+                <select id="taxRate" name="panel" required>
+                    <option value="22">Single</option>
+                    <option value="18">Family</option>
+                </select>
+            </fieldset>
+        </form>
 
-      <button id="calculatePaycheck">Calculate Paycheck</button>
-      <h2>Paycheck Summary</h2>
-      <div id="feedback">
-         <p>Enter your information above to calculate your paycheck.</p>
-      </div>
-   </main>
+        <button id="calculatePaycheck">Calculate Paycheck</button>
+        <h2>Paycheck Summary</h2>
+        <div id="feedback">
+            <p>Enter your information above to calculate your paycheck.</p>
+        </div>
+    </main>
 
-  <script src="payroll.js"></script>
+    <script src="payroll.js"></script>
 </body>
 
 </html>
