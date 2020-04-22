@@ -23,9 +23,61 @@ Project 5 - ATM Program
 
 <body>
   <main>
-    <h1>ATM Program</h1>
+    <header>
+      <h1>Bank of Josh ATM</h1>
+    </header>
 
-  </main>
+      <h2>Account Balance $<span id="balance">0.00</span></h2>
+      <div id="errors"></div>
+
+      <section>
+        <!-- <form>
+          <fieldset id="deposit">
+            <legend>Make a Deposit</legend>
+            <label>
+              <span>Amount</span>
+              $<input name="depositAmount" type="number" min="0" step="0.01" value="0.00">
+            </label>
+          </fieldset>
+        </form>
+
+        <fieldset id="withdrawal">
+          <legend>Make a Withdrawal</legend>
+          <label>
+            <span>Amount</span>
+            $<input name="withdrawalAmount" type="number" min="0" step="0.01" value="0.00">
+          </label>
+        </fieldset>
+      </form>
+      <button id="btnDeposit">Deposit</button>
+      <button id="btnWithdraw">Withdraw</button> -->
+
+        <form>
+          <fieldset id="deposit">
+            <legend>Make a Deposit</legend>
+            <label>
+              <span>Amount</span>
+              $<input id="depositAmount" type="number" min="0" step="0.01" value="0.00">
+            </label>
+          </fieldset>
+
+          <fieldset id="withdrawal">
+            <legend>Make a Withdrawal</legend>
+            <label>
+              <span>Amount</span>
+              $<input id="withdrawalAmount" type="number" min="0" step="0.01" value="0.00">
+            </label>
+          </fieldset>
+        </form>
+        <div id="buttons">
+          <button id="btnDeposit">Deposit</button>
+          <button id="btnWithdraw">Withdraw</button>
+        </div>
+
+      </section>
+
+    </main>
+
   <script src="atm.js"></script>
 </body>
 
