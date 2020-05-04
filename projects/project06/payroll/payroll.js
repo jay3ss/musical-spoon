@@ -131,7 +131,3 @@ function numAsCurrency(num) {
     }
     return currency;
 }
-
-// Add the main function as a callback function for when the calculate
-// button is clicked
-document.querySelector('button').addEventListener('click', main);
