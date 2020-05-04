@@ -6,11 +6,6 @@ Project 6 - ATM Program
 Rewrite the ATM program using the methods demonstrated in Calculator
 application above.
 */
-// add two event listeners on window load
-window.onload =  function() {
-    document.querySelector('#btnDeposit').addEventListener('click', deposit);
-    document.querySelector('#btnWithdraw').addEventListener('click', withdraw);
-}
 
 // return the current balance as a number
 function balanceCheck() {
