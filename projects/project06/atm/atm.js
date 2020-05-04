@@ -1,15 +1,10 @@
 /* file: atm.js
 Joshua Saunders
 CS 150
-Project 5 - ATM Program
+Project 6 - ATM Program
 
-1. Set an initial balance of $1000
-2. Create functions for all operations:
-      balanceCheck()
-      withdraw(amount)
-      deposit(amount)
-3. Output results using innerHTML
-4. ​Make sure to validate for overdraft
+Rewrite the ATM program using the methods demonstrated in Calculator
+application above.
 */
 // add two event listeners on window load
 window.onload =  function() {
