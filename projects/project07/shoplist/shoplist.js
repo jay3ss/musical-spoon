@@ -13,16 +13,16 @@ let shoplist = {
     isInited: false,
     items: [],
     addItem: function (item) {
-        items.append(item);
+        this.items.push(item);
     },
     init: function() {
-        isInited = true;
+        this.isInited = true;
         return isInited;
     },
     itemsToList: function () {
         let itemsList = "<ul id='shoplistItems'>";
-        for (let i = 0; i < items.length; i++) {
-            itemsList += "<li>" + items[i] + "</li>";
+        for (let i = 0; i < this.items.length; i++) {
+            itemsList += "<li>" + this.items[i] + "</li>";
         }
         itemsList += "</ul>";
 
@@ -35,3 +35,21 @@ function initShoppingList(list) {
     return list.init().isInited;
 }
 
+// Creates a node with text in it
+function createTextNode(elemType, text) {
+    let newElem = document.createElement(elemType);
+    let textNode = document.createTextNode(text);
+    newElem.appendChild(textNode);
+    return newElem;
+}
+
+// Initialize the display of the shoplist
+function initShoplistDisplay(parentElem) {
+    let newH2 = createTextNode("h2", "Shopping List Items");
+    let newDiv = createTextNode("div", "");
+    newDiv.setAttribute("id", "itemsList");
+    parentElem.appendChild(newH2);
+    parentElem.appendChild(newDiv);
+
+    return parentElem;
+}
