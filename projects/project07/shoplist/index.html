@@ -24,14 +24,17 @@ the HTML file
 
     <section id="addItemsForm">
       <h2>Add items to your shopping list</h2>
-      <form>
-
+      <form id="itemForm">
+        <label for="item">Enter Item</label>
+        <input type="text" name="item" id="item">
       </form>
+      <button type="submit">Add Item</button>
     </section>
 
     <section id="shoppingList">
-      <ul id="items"></ul>
     </section>
   </main>
+
+  <script src="shoplist.js"></script>
 </body>
 </html>
