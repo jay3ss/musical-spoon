@@ -20,7 +20,7 @@ let shoplist = {
         return isInited;
     },
     itemsToList: function () {
-        let itemsList = "<ul id='items'>";
+        let itemsList = "<ul id='shoplistItems'>";
         for (let i = 0; i < items.length; i++) {
             itemsList += "<li>" + items[0] + "</li>";
         }
@@ -34,3 +34,4 @@ let shoplist = {
 function initShoppingList(list) {
     return list.init().isInited;
 }
+
