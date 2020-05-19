@@ -12,8 +12,10 @@ the HTML file
 let shoplist = {
     isInited: false,
     items: [],
+    numItems: 0,
     addItem: function (item) {
         this.items.push(item);
+        this.numItems++;
     },
     init: function() {
         this.isInited = true;
