@@ -22,7 +22,7 @@ let shoplist = {
     itemsToList: function () {
         let itemsList = "<ul id='shoplistItems'>";
         for (let i = 0; i < items.length; i++) {
-            itemsList += "<li>" + items[0] + "</li>";
+            itemsList += "<li>" + items[i] + "</li>";
         }
         itemsList += "</ul>";
 
