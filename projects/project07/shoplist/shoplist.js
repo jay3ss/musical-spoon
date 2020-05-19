@@ -36,8 +36,6 @@ let shoplist = {
     },
     getItem: function(itemNum) {
         return this.items[itemNum];
-    },
-    unorderedList: function () {
     }
 }
 
