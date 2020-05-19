@@ -1,0 +1,16 @@
+document.querySelector("#header-h2").innerHTML;
+document.querySelector("#header-h2").innerHTML = "Hi there this is Daniel";
+document.querySelector("#header-h2").outerHTML;
+document.querySelector("#header-h2").id = "daniel";
+document.querySelector("#daniel").className;
+document.querySelector("#daniel").classList;
+document.querySelector("#daniel").classList[0];
+document.querySelector("#daniel").classList.add("test2");
+document.querySelector("#daniel").classList.remove("test2");
+document.querySelector("#daniel").classList.toggle("example");
+document.querySelector("#daniel").classList.contains("example");
+document.querySelector("#daniel").hasAttribute("id");
+document.querySelector("#daniel").getAttribute("id");
+document.querySelector("#daniel").setAttribute("id", "example");
+document.querySelector("#example").setAttribute("href", "www.google.com");
+document.querySelector("#example").removeAttribute("href");
