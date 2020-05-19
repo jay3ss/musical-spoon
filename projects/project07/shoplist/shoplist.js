@@ -37,12 +37,23 @@ let shoplist = {
         return this.items[0];
     },
     getItem: function(itemNum) {
-        return this.items[itemNum];
+        if (itemNum < this.items.length && itemNum >= 0) {
+            return this.items[itemNum];
+        } else {
+            return undefined;
+        }
+    },
+    removeItem: function(itemNum) {
+        if (itemNum < this.items.length && itemNum >= 0) {
+            return this.items.splice(itemNum, 1)[0];
+        } else {
+            return undefined;
+        }
     }
 }
 
 // Initialize the shoplist
-function initShoppingList(list) {
+function initShoplist(list) {
     return list.init().isInited;
 }
 
