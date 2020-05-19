@@ -45,6 +45,7 @@ let shoplist = {
     },
     removeItem: function(itemNum) {
         if (itemNum < this.items.length && itemNum >= 0) {
+            this.numItems--;
             return this.items.splice(itemNum, 1)[0];
         } else {
             return undefined;
