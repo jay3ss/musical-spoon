@@ -29,3 +29,8 @@ let shoplist = {
         return itemsList;
     }
 }
+
+// Initialize the shoplist
+function initShoppingList(list) {
+    return list.init().isInited;
+}
