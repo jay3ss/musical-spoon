@@ -27,6 +27,17 @@ let shoplist = {
         itemsList += "</ul>";
 
         return itemsList;
+    },
+    back: function () {
+        return this.items[this.items.length - 1];
+    },
+    front: function () {
+        return this.items[0];
+    },
+    getItem: function(itemNum) {
+        return this.items[itemNum];
+    },
+    unorderedList: function () {
     }
 }
 
