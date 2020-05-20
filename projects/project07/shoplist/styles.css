@@ -10,19 +10,27 @@ the HTML file
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-    width: 500px;
+    width: 600px;
     margin: auto;
 }
 
-h1, h2, #errors {
+h1, h2 {
     text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 3px 3px gray;
+}
+
+h2 {
+    clear: both;
 }
 
 fieldset {
     border-color: black;
     border-style: solid;
-    /* display: flex;
-    float: left; */
     font-size: 1.1em;
     margin: 1em 0 1em 0;
     width: 100%;
@@ -33,7 +41,6 @@ input {
     border-bottom: 2px solid black;
     padding: 2px;
     font-size: 1.1em;
-    /* float: right; */
     margin-left: 20px;
 }
 
@@ -51,7 +58,7 @@ input:invalid {
 }
 
 label {
-    display: inline-block;
+    display: none;
 }
 
 button {
@@ -66,37 +73,44 @@ section {
     align-content: center;
 }
 
-#buttons {
-    clear: both;
-    vertical-align: bottom;
-}
-
-#empName input {
-	width: 16rem;
-}
-
-#feedback strong {
-	font-weight: bold;
-}
-
-#feedbackTable th {
-	font-weight: bold;
-	text-align: left;
-	width: 8rem;
-}
-
-main form label {
-	display: inline-block;
-	margin-right: 35px;
-}
-
-#errors {
-	color: red;
-	font-size: 18px;
-	font-weight: bold;
-	margin: 5px 0 5px 0;
-}
-
 .text-center {
     text-align: center;
+}
+
+#addItemsForm {
+    margin-top: 2.5em;
+}
+
+#shoppingList {
+    margin-top: 5em;
+}
+
+#itemForm {
+    margin: 2em;
+    float: left;
+}
+
+#addItemButton {
+    margin-top: 2em;
+    float: right;
+}
+
+.deleteItem {
+    float: right;
+    color: orangered;
+}
+
+.deleteItem:hover {
+    cursor: pointer;
+}
+
+.shoplistItem {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.shoplistItem:hover {
+    border: 2px gray dotted;
 }
